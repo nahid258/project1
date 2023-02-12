@@ -30,8 +30,9 @@ section {
     width: 70%;
 }
 
-.rjptag {
+p {
     text-align: justify;
+    padding-right: 40px;
 }
 
 .link-buttonC {
@@ -42,4 +43,18 @@ section {
     font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
+}
+
+.section-2 {
+    display: flex;
+    padding-top: 110px;
+    padding-right: 100px;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-weight: 700;
+    color: rgb(10, 3, 85);
 }
