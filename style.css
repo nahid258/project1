@@ -17,8 +17,12 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
+}
+
+section {
+    padding-bottom: 120px;
 }
 
 .half-width {
@@ -47,7 +51,6 @@ p {
 
 .section-2 {
     display: flex;
-    padding-top: 110px;
     padding-right: 100px;
     background-image: url(images/dream-bg.png);
     background-position: right;
@@ -55,6 +58,46 @@ p {
 }
 
 h2 {
+    font-size: 30px;
     font-weight: 700;
+}
+
+.sec2-h2 {
     color: rgb(10, 3, 85);
+}
+
+.sec3-main-div {
+    display: flex;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.section-3 {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#writing-text {
+    padding-left: 40px;
+    color: rgb(1, 92, 5);
+}
+
+#Radio-Jockey {
+    border-left: 8px solid tomato;
+}
+
+#Writing-Publication {
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
